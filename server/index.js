@@ -15,7 +15,7 @@ app.use(cors());
 
 
 const CONNECTION_URL =
-  "mongodb+srv://Saboteur:7mJEjp9gucaBu8W@cluster0.cya4n.mongodb.net/Memories?retryWrites=true&w=majority";
+  "mongodb+srv://Saboteur:<password>@cluster0.cya4n.mongodb.net/Memories?retryWrites=true&w=majority";
 
 const PORT= process.env.PORT|| 5000;
 
